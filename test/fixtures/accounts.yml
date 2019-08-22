@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  account_name: MyString
+  date_opened: 2019-08-21 21:12:46
+  date_closed: 2019-08-21 21:12:46
+  current_balance: 1.5
+
+two:
+  account_name: MyString
+  date_opened: 2019-08-21 21:12:46
+  date_closed: 2019-08-21 21:12:46
+  current_balance: 1.5
