@@ -3,6 +3,8 @@ import { HttpClient as Http } from '@angular/common/http';
 import { IAccount } from './account';
 import { AccountService } from './account.service';
 
+// review https://stackblitz.com/edit/json-import-example to help with JSON import
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
