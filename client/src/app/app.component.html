@@ -1,10 +1,22 @@
-
 <div>
-<h1>Welcome to the Fluckey Bank Account App</h1>
-<h3>Account Name: {{accounts.account_name}}</h3>
-<h3>Current Balance: {{accounts.current_balance}}</h3>
-<h3>Most Recent Transactions:</h3>
-<ul>
-  <li></li>
-</ul>
-</div>
+  <h1>Welcome to the Fluckey Bank Account App</h1>
+  <br>
+  <div *ngFor="let account of accounts">
+  <h3>Account Name: {{account.accountName}}</h3>
+  <h3>Current Balance: {{account.currentBalance | currency}}</h3>
+  <h3>Most Recent Transactions:</h3>
+  <table class="table">
+    <thead>
+      <th scope="col">Description</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Balance</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>

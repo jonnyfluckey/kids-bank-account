@@ -1,0 +1,12 @@
+[ 
+  {
+    "accountName": "Claire",
+    "dateOpened": "March 19, 2016",
+    "currentBalance": 10.00
+  },
+  {
+    "accountName": "Desmond",
+    "dateOpened": "March 19, 2016",
+    "currentBalance": 15.00
+  }
+    ]

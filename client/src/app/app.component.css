@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+/* div {
+  background-color: white;
+} */
+
+h1 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.table {
+  background-color: beige;
+}

@@ -1,27 +1,17 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient as Http } from '@angular/common/http';
+import { Component } from '@angular/core';
 import { IAccount } from './account';
-import { AccountService } from './account.service';
+import { IAccountDetails } from './accountdetails';
+
+import kidAccount from './kidaccounts.json';
+import kidAccountDetails from './kidaccountdetail.json';
 
 @Component({
-  selector: 'app-root',
+  selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: [ './app.component.css' ]
 })
-export class AppComponent implements OnInit {
-  errorMessage: string  = '';
-  accounts: IAccount[] = []
-
-  constructor (private accountService: AccountService)  {}
-
-  ngOnInit(): void {
-    this.accountService.getAccounts().subscribe(
-      accounts => {
-        this.accounts = accounts
-      },
-      error => this.errorMessage = <any>error
-    )
-  }
-
-
+export class AppComponent  {
+  name = 'Angular';
+  accounts: IAccount[] = kidAccount;
+  // accountDetails: IAccountDetails[] = kidAccountDetails;
 }
