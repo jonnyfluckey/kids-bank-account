@@ -1,9 +1,5 @@
-interface Detail {
+export interface IAccountDetails {
   amount: number;
   description: string;
   updatedBalance: number;
-}
-
-export interface IAccountDetails {
-  accountName: Detail[];
 }

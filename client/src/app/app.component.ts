@@ -3,7 +3,7 @@ import { IAccount } from './account';
 import { IAccountDetails } from './accountdetails';
 
 import kidAccount from './kidaccounts.json';
-import kidAccountDetails from './kidaccountdetail.json';
+import kidAccountDetail from './kidaccountdetail.json';
 
 // review https://stackblitz.com/edit/json-import-example to help with JSON import
 
@@ -15,5 +15,5 @@ import kidAccountDetails from './kidaccountdetail.json';
 export class AppComponent  {
   name = 'Angular';
   accounts: IAccount[] = kidAccount;
-  // accountDetails: IAccountDetails[] = kidAccountDetails;
+  accountDetails: IAccountDetails[] = kidAccountDetail.accountName;
 }
