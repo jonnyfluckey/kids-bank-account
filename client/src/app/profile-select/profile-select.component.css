@@ -1,0 +1,19 @@
+div  {
+  display: inline-block;
+  width: 50%;
+}
+
+img {
+  display: block;
+  max-width: 75%;
+  height: auto;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+img:hover  {
+  max-width: 90%;
+}

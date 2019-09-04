@@ -1,4 +1,5 @@
 <app-navbar></app-navbar>
+<app-profile-select></app-profile-select>
 <div>
   <h1>Account Details</h1>
   <br>
@@ -9,8 +10,8 @@
   <br>
   <table class="table">
     <thead>
-      <th scope="col">Description</th>
       <th scope="col">Amount</th>
+      <th scope="col">Description</th>
       <th scope="col">Balance</th>
     </thead>
     <tbody *ngFor="let detail of accountDetails">

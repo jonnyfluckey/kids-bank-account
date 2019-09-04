@@ -1,11 +1,13 @@
 [ 
   {
     "accountName": "Claire",
+    "profilePic": "https://www.tubefilter.com/wp-content/uploads/2019/03/jojo-siwa-north-west.jpg",
     "dateOpened": "March 19, 2016",
     "currentBalance": 10.00
   },
   {
     "accountName": "Desmond",
+    "profilePic": "https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2019/03/spider-man-far-from-home-tom-holland.jpg?itok=Nc6i_hlB",
     "dateOpened": "March 19, 2016",
     "currentBalance": 15.00
   }
